@@ -1,0 +1,9 @@
+.carousel, .promo {
+  background-color: #d4efff;
+  padding: 20;
+  border-bottom: 5px dashed white;
+  display: block; }
+  .carousel::after, .promo::after {
+    content: '';
+    display: table;
+    clear: both; }

@@ -1,0 +1,7 @@
+%box{
+	background-color: $blue--light;
+	padding: $baseline; 
+	border-bottom: 5px dashed white;
+	display: block;
+	@include clearfix;
+}
