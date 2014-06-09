@@ -13,7 +13,8 @@
 // #BASE
 // These are base HTML elements, things with no classes on them, e.g. `h1 {}`, `blockquote {}`.
  
-//@import 'base/all';
+// @import 'base/all';
+@import 'base/headings';
 
 // #OBJECTS
 // These are design-free objects, abstractions and design patterns. These create constructs that you lay your designs over.
@@ -27,6 +28,7 @@
 //@import 'components/all';
 @import 'components/carousel';
 @import 'components/promo';
+@import 'components/wysiwyg';
 
 
 // #TRUMPS

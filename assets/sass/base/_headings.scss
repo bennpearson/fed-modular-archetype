@@ -1,0 +1,61 @@
+@include font-face(blokk--reg, '../type/BLOKKRegular');
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+  font-family: $heading-font;
+  margin: 0;
+  padding: $baseline*2 0 $baseline 0;
+  font-weight: normal;
+  color: $grey--dark;
+} 
+
+h1{
+  font-size: em(36);
+  line-height: $baseline*4;
+}
+
+h2{
+  font-size: em(26, $base--em);
+  line-height: $baseline*3;
+}
+
+h3{
+  font-size: em(22, $base--em);
+  line-height: $baseline*3;
+}
+
+h4{
+  font-size: em(18, $base--em);
+  line-height: $baseline*2;
+  padding-bottom: 0px;
+}
+
+h5{
+  font-size: em(16, $base--em);
+  line-height: $baseline*2;
+  padding-bottom: 0px;
+  font-family: $sans-serif;
+  font-weight: bold;
+}
+
+h6{
+  font-size: em(16, $base--em);
+  line-height: $baseline*2;
+  padding-bottom: 0px;
+  font-family: $sans-serif;
+  font-weight: bold;
+}
+
+p{
+  font-family: $heading-font;
+  margin: 0;
+  padding: $baseline 0;
+  font-size: em(16, $base--em);
+  line-height: $baseline*2;
+  color: $grey--dark;
+}

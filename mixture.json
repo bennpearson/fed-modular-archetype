@@ -1,5 +1,5 @@
 {
-  "debug": false,
+  "debug": true,
   "domain": null,
   "lintScripts": false,
   "modelSource": null,
@@ -16,5 +16,12 @@
   "templateDefaultPage": "index",
   "templateDirectory": "templates",
   "type": "mixture",
-  "useCompass": false
+  "useCompass": false,
+  "convertHtml": {
+    "extension": ".html",
+    "path": null,
+    "ignoreUrls": null,
+    "relativePaths": true,
+    "default": null
+  }
 }

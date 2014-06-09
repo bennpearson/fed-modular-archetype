@@ -13,8 +13,16 @@
         <div id="wrapper">
             <!-- Include -->
             {% include "header" %}
-            <!-- Content block, child page inject content -->
-            {% block content %}{% endblock %}
+            <article>
+                <!-- Content block, child page inject content -->
+                {% block content %}{% endblock %}
+            </article>
+            <aside>
+                <!-- Include sidebar -->
+                {% include "nav--side" %}
+            </aside>
+            <!-- Include -->
+            {% include "footer" %}
         </div>
         <!-- Script block allowing child pages to inject their own scripts -->
         {% block scripts %}{% endblock %}
