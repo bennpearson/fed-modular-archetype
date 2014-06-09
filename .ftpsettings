@@ -1,0 +1,8 @@
+{
+  "host": "staging.interactiondesign.precedenthost.co.uk",
+  "port": 21,
+  "username": "interactiondesign",
+  "password": "panCimAns",
+  "path": "bennpearson/archetype",
+  "secure": false
+}
