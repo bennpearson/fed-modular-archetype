@@ -93,6 +93,12 @@ aside {
   float: left;
   width: 31.25%; }
 
+/* line 6, /Users/benn.pearson/Dropbox/Precedent/architype/assets/sass/tools/helpers/_clearfix.scss */
+.main-content::after {
+  content: '';
+  display: table;
+  clear: both; }
+
 /* line 1, /Users/benn.pearson/Dropbox/Precedent/architype/assets/sass/objects/_box.scss */
 .carousel--hero, .carousel--inner-page, .promo--text-with-image, .promo--video-with-text, .rte, .news--latest {
   background-color: #d4efff;
@@ -104,8 +110,11 @@ aside {
     content: '';
     display: table;
     clear: both; }
+  /* line 7, /Users/benn.pearson/Dropbox/Precedent/architype/assets/sass/objects/_box.scss */
+  .carousel--hero:last-of-type, .carousel--inner-page:last-of-type, .promo--text-with-image:last-of-type, .promo--video-with-text:last-of-type, .rte:last-of-type, .news--latest:last-of-type {
+    border-bottom: 0px; }
 
-/* line 9, /Users/benn.pearson/Dropbox/Precedent/architype/assets/sass/objects/_box.scss */
+/* line 12, /Users/benn.pearson/Dropbox/Precedent/architype/assets/sass/objects/_box.scss */
 .article h2 {
   position: absolute;
   left: 69%;

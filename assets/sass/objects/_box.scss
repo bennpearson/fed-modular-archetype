@@ -4,6 +4,9 @@
 	border-bottom: 5px dashed white;
 	display: block;
 	@include clearfix;
+	&:last-of-type{
+		border-bottom: 0px;
+	}
 }
 
 %box--outside-grid{
