@@ -16,7 +16,7 @@
     @Project          Archetype
     @Type             FED
     @Date             10/06/2014
-    @Author           Benn Pearson
+    @Author           Benn Pearson and Pete Naish
     @BrowserSupport   Chrome
 
 
