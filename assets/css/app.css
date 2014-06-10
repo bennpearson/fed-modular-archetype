@@ -73,6 +73,10 @@ p {
     font-size: 1.375em;
     line-height: 30px; }
 
+/* line 74, /Users/benn.pearson/Dropbox/Precedent/architype/assets/sass/base/_headings.scss */
+a {
+  color: #1daafc; }
+
 /* line 1, /Users/benn.pearson/Dropbox/Precedent/architype/assets/sass/base/_page.scss */
 img {
   width: 100%;
