@@ -12,3 +12,7 @@ aside{
 	float: left;
 	width: grid--column(4);
 }
+
+.main-content{
+	@include clearfix;
+}
