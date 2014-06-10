@@ -4,15 +4,15 @@
 // width: grid--column(4); 
 
 @function grid--column($columns, $container-columns: $grid--total-columns) {
-    $width: $columns * $grid--column + ($columns - 1) * $grid--gutter;
-    $container-width: $container-columns * $grid--column + ($container-columns - 1) * $grid--gutter;
-    @return percentage($width / $container-width);
+  $width: $columns * $grid--column + ($columns - 1) * $grid--gutter;
+  $container-width: $container-columns * $grid--column + ($container-columns - 1) * $grid--gutter;
+  @return percentage($width / $container-width);
 }
 
 // Flexible gutter
 // width: grid--gutter(20); 
 
 @function grid--gutter($container-columns: $grid--total-columns, $gutter: $grid--gutter) {
-    $container-width: $container-columns * $grid--column + ($container-columns - 1) * $grid--gutter;
-    @return percentage($gutter / $container-width);
+  $container-width: $container-columns * $grid--column + ($container-columns - 1) * $grid--gutter;
+  @return percentage($gutter / $container-width);
 }

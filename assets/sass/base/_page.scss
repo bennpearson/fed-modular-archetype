@@ -1,18 +1,22 @@
 img{
-	width:100%;
-	display: block;
+  width:100%;
+  display: block;
 }
 
 article{
-	float: left;
-	width: grid--column(8);
-	margin-right: grid--gutter();
+  @include media-query-ie(tablet-and-desktop) {
+    float: left;
+    width: grid--column(8);
+    margin-right: grid--gutter();
+  }
 }
-aside{
-	float: left;
-	width: grid--column(4);
+aside{  
+  @include media-query-ie(tablet-and-desktop) {
+    float: left;
+    width: grid--column(4);
+  }
 }
 
 .main-content{
-	@include clearfix;
+  @include clearfix;
 }
