@@ -1,5 +1,8 @@
 @include font-face(blokk--reg, '../type/BLOKKRegular');
 
+html{
+  font-family: $sans-serif; 
+}
 
 h1,
 h2,
@@ -7,11 +10,10 @@ h3,
 h4,
 h5,
 h6{
-  font-family: $heading-font;
   margin: 0;
-  padding: $baseline*2 0 $baseline 0;
+  padding: 0 0 $baseline 0;
   font-weight: normal;
-  color: $grey--dark;
+  overflow: hidden;
 } 
 
 h1{
@@ -26,7 +28,7 @@ h2{
 
 h3{
   font-size: em(22, $base--em);
-  line-height: $baseline*3;
+  line-height: $baseline*2;
 }
 
 h4{
@@ -38,24 +40,33 @@ h4{
 h5{
   font-size: em(16, $base--em);
   line-height: $baseline*2;
-  padding-bottom: 0px;
-  font-family: $sans-serif;
   font-weight: bold;
 }
 
 h6{
   font-size: em(16, $base--em);
   line-height: $baseline*2;
-  padding-bottom: 0px;
-  font-family: $sans-serif;
   font-weight: bold;
 }
 
 p{
-  font-family: $heading-font;
-  margin: 0;
-  padding: $baseline 0;
   font-size: em(16, $base--em);
   line-height: $baseline*2;
+  overflow: hidden;
+}
+
+.article{
+  font-family: $heading-font;
+  color: $blue;
+  h2{
+    @extend %box--outside-grid;
+  }
+}
+
+.aside{
   color: $grey--dark;
+  p{
+    font-size: em(22);
+    line-height: $baseline*3;
+  }
 }

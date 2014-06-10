@@ -20,3 +20,12 @@
     }
 
 }
+
+// Inline media queries with support for ie 9 and older
+// @include breakpoint-ie(tablet-and-desktop){}
+@mixin media-query-ie($breakpoint) {
+ 
+  @include media-query($breakpoint) { @content; }
+  .no-csstransforms & { @content; }
+ 
+}

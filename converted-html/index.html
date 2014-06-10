@@ -12,43 +12,81 @@
     <body>
         <div id="wrapper">
             <!-- Include -->
-            <header>
-	<h1>Archytype</h1>
+            <header class="header">
+	<h1>FED Archytype</h1>
 	<h2>An example of a module based layout</h2>
+	<p>To see an example of how the modules/components and templates/layouts are seperated in preperation for backend development go <a href="http://stash.precedent.com/projects/PREC/repos/fed-archetype/browse">here</a></p>
+	<p>To see BEM methodology guidelines and folder structure go <a href="http://stash.precedent.com/projects/PREC/repos/front-end-guidelines/browse">here</a></p>
+	<p>When starting a new project download the latest FED mixin library <a href="http://stash.precedent.com/projects/PREC/repos/fed-mixin-library/browse">here</a></p>
 </header>
-            <article>
+            <article class="article">
                 <!-- Content block, child page inject content -->
                  
-	<section class="carousel carousel--hero">
+	<section class="carousel--hero">
+	<img src="assets/img/slide.jpg">
 </section>
 	<section class="wysiwyg">
+	<h3>Lorem</h3>
+	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+	<h4>Ipsum</h4>
+	<p>Nullam ut nulla ultricies, adipiscing felis vel, tempus justo. </p>
 </section>
-	<section class="promo promo--video-with-text">
-	<video></video>
-	<h2>
-		Video
-	</h2>
-	<p>
-		This is some text
-	</p>
+	<section class="promo--video-with-text">
+	<div class="promo__video">
+		<video>
+		</video>
+	</div>
+	<div class="promo__info">
+		<h3>
+			Video
+		</h3>
+		<p>
+			This is some text
+		</p>
+	</div>
 </section>
-	<section class="promo promo--text-with-video">
-	<h2>
-		Title
-	</h2>
-	<p>
-		This is some text
-	</p>
-	<video></video>
+	<section class="news--latest">
+	<h2>two-column text</h2>
+	<div class="news__intro">
+		<h3>Lorem</h3>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+	</div>
+	<div class="news__description">
+		<p>Nullam ut nulla ultricies, adipiscing felis vel, tempus justo. </p>
+	</div>
+</section>
+	<section class="carousel--inner-page">
+	<h2>video + text</h2>
+	<img src="assets/img/slide.jpg">
+</section>
+	<section class="promo--text-with-image">
+	<h2>text + image</h2>
+	<div class="promo__info">
+		<h3>
+			Title
+		</h3>
+		<p> 
+			This is some text
+		</p>
+	</div>
+	<div class="promo__image">
+		<img src="assets/img/slide.jpg">
+	</div>
 </section>
 
             </article>
-            <aside>
+            <aside class="aside">
                 <!-- Include sidebar -->
-                
+                <section class="nav--side">
+	<p>Modular content means adding content in blocks that you can arrange and sort easily.</p>
+	<p>A content block can contain text, images, slideshows, videos, either individually or in combinations</p>
+</section>
             </aside>
             <!-- Include -->
-            
+            <footer class="footer">
+	<h5>Archytype</h5>
+	<h6>An example of a module based layout</h6>
+</footer>
         </div>
         <!-- Script block allowing child pages to inject their own scripts -->
         

@@ -1,3 +1,7 @@
-.carousel{
+.carousel--hero{
+	@extend %box;
+}
+
+.carousel--inner-page{
 	@extend %box;
 }
