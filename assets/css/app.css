@@ -133,9 +133,12 @@ aside {
 /* line 29, /Users/benn.pearson/Dropbox/Precedent/architype/assets/sass/tools/css3/_media-query.scss */
 .no-csstransforms .promo--video-with-text .promo__info {
   margin-left: 3.125%; }
+/* line 18, /Users/benn.pearson/Dropbox/Precedent/architype/assets/sass/components/_promo.scss */
+.promo--video-with-text .promo__video {
+  overflow: hidden; }
 
 @media all and (min-width: 48em) {
-  /* line 22, /Users/benn.pearson/Dropbox/Precedent/architype/assets/sass/components/_promo.scss */
+  /* line 23, /Users/benn.pearson/Dropbox/Precedent/architype/assets/sass/components/_promo.scss */
   .promo__info {
     float: left;
     width: 48.4375%; } }
@@ -144,12 +147,12 @@ aside {
   float: left;
   width: 48.4375%; }
 
-/* line 29, /Users/benn.pearson/Dropbox/Precedent/architype/assets/sass/components/_promo.scss */
+/* line 30, /Users/benn.pearson/Dropbox/Precedent/architype/assets/sass/components/_promo.scss */
 .promo__video {
   background-color: #1daafc;
   margin-bottom: 20px; }
   @media all and (min-width: 48em) {
-    /* line 29, /Users/benn.pearson/Dropbox/Precedent/architype/assets/sass/components/_promo.scss */
+    /* line 30, /Users/benn.pearson/Dropbox/Precedent/architype/assets/sass/components/_promo.scss */
     .promo__video {
       float: left;
       width: 48.4375%; } }
@@ -157,13 +160,16 @@ aside {
   .no-csstransforms .promo__video {
     float: left;
     width: 48.4375%; }
+  /* line 37, /Users/benn.pearson/Dropbox/Precedent/architype/assets/sass/components/_promo.scss */
+  .promo__video video {
+    opacity: 0; }
 
-/* line 38, /Users/benn.pearson/Dropbox/Precedent/architype/assets/sass/components/_promo.scss */
+/* line 42, /Users/benn.pearson/Dropbox/Precedent/architype/assets/sass/components/_promo.scss */
 .promo__image {
   background-color: #1daafc;
   margin-bottom: 20px; }
   @media all and (min-width: 48em) {
-    /* line 38, /Users/benn.pearson/Dropbox/Precedent/architype/assets/sass/components/_promo.scss */
+    /* line 42, /Users/benn.pearson/Dropbox/Precedent/architype/assets/sass/components/_promo.scss */
     .promo__image {
       float: left;
       width: 48.4375%; } }

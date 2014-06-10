@@ -17,7 +17,7 @@
     @Type             FED
     @Date             10/06/2014
     @Author           Benn Pearson and Pete Naish
-    @BrowserSupport   Chrome... Latest! Maybe Canary :)
+    @BrowserSupport   IE9, IE10, IE11, Safari, Firefox, Chrome
 
 
 # Readme
