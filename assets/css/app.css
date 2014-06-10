@@ -94,13 +94,13 @@ aside {
   width: 31.25%; }
 
 /* line 1, /Users/benn.pearson/Dropbox/Precedent/architype/assets/sass/objects/_box.scss */
-.carousel--hero, .carousel--inner-page, .promo--text-with-image, .promo--video-with-text, .wysiwyg, .news--latest {
+.carousel--hero, .carousel--inner-page, .promo--text-with-image, .promo--video-with-text, .rte, .news--latest {
   background-color: #d4efff;
   padding: 40px;
   border-bottom: 5px dashed white;
   display: block; }
   /* line 6, /Users/benn.pearson/Dropbox/Precedent/architype/assets/sass/tools/helpers/_clearfix.scss */
-  .carousel--hero::after, .carousel--inner-page::after, .promo--text-with-image::after, .promo--video-with-text::after, .wysiwyg::after, .news--latest::after {
+  .carousel--hero::after, .carousel--inner-page::after, .promo--text-with-image::after, .promo--video-with-text::after, .rte::after, .news--latest::after {
     content: '';
     display: table;
     clear: both; }
