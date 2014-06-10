@@ -3,6 +3,7 @@
 
 @import 'settings/colour';
 @import 'settings/type';
+@import 'settings/grid';
 @import 'tools/all';
 
 // #GENERIC
@@ -15,6 +16,7 @@
  
 // @import 'base/all';
 @import 'base/headings';
+@import 'base/page';
 
 // #OBJECTS
 // These are design-free objects, abstractions and design patterns. These create constructs that you lay your designs over.
@@ -26,9 +28,12 @@
 // These are your components and modules; things like buttons, accordions, carousels, etc.
  
 //@import 'components/all';
+@import 'components/header';
 @import 'components/carousel';
 @import 'components/promo';
 @import 'components/wysiwyg';
+@import 'components/news';
+@import 'components/footer';
 
 
 // #TRUMPS

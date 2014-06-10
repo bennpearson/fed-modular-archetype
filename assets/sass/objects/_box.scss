@@ -1,7 +1,16 @@
 %box{
 	background-color: $blue--light;
-	padding: $baseline; 
+	padding: $baseline*4; 
 	border-bottom: 5px dashed white;
 	display: block;
 	@include clearfix;
+}
+
+%box--outside-grid{
+	position: absolute;
+	left: 69%;
+	font-family: $sans-serif;
+	color: $grey;
+	margin-top: $baseline;
+	font-weight: normal;
 }

@@ -5,73 +5,191 @@
   font-style: normal;
   src: url("../type/BLOKKRegular.eot");
   src: url("../type/BLOKKRegular.eot?#iefix") format("embedded-opentype"), url("../type/BLOKKRegular.woff") format("woff"), url("../type/BLOKKRegular.ttf") format("truetype"), url("../type/BLOKKRegular.svg#blokk--reg") format("svg"); }
-/* line 4, /Users/benn.pearson/Dropbox/Precedent/architype/assets/sass/base/_headings.scss */
+/* line 3, /Users/benn.pearson/Dropbox/Precedent/architype/assets/sass/base/_headings.scss */
+html {
+  font-family: arial, helvetica, sans-serif; }
+
+/* line 7, /Users/benn.pearson/Dropbox/Precedent/architype/assets/sass/base/_headings.scss */
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-  font-family: "blokk--reg", Myriad, arial, helvetica, sans-serif;
   margin: 0;
-  padding: 20px 0 10px 0;
+  padding: 0 0 10px 0;
   font-weight: normal;
-  color: #282828; }
+  overflow: hidden; }
 
-/* line 17, /Users/benn.pearson/Dropbox/Precedent/architype/assets/sass/base/_headings.scss */
+/* line 19, /Users/benn.pearson/Dropbox/Precedent/architype/assets/sass/base/_headings.scss */
 h1 {
   font-size: 2.25em;
   line-height: 40px; }
 
-/* line 22, /Users/benn.pearson/Dropbox/Precedent/architype/assets/sass/base/_headings.scss */
+/* line 24, /Users/benn.pearson/Dropbox/Precedent/architype/assets/sass/base/_headings.scss */
 h2 {
   font-size: 1.625em;
   line-height: 30px; }
 
-/* line 27, /Users/benn.pearson/Dropbox/Precedent/architype/assets/sass/base/_headings.scss */
+/* line 29, /Users/benn.pearson/Dropbox/Precedent/architype/assets/sass/base/_headings.scss */
 h3 {
   font-size: 1.375em;
-  line-height: 30px; }
+  line-height: 20px; }
 
-/* line 32, /Users/benn.pearson/Dropbox/Precedent/architype/assets/sass/base/_headings.scss */
+/* line 34, /Users/benn.pearson/Dropbox/Precedent/architype/assets/sass/base/_headings.scss */
 h4 {
   font-size: 1.125em;
   line-height: 20px;
   padding-bottom: 0px; }
 
-/* line 38, /Users/benn.pearson/Dropbox/Precedent/architype/assets/sass/base/_headings.scss */
+/* line 40, /Users/benn.pearson/Dropbox/Precedent/architype/assets/sass/base/_headings.scss */
 h5 {
   font-size: 1em;
   line-height: 20px;
-  padding-bottom: 0px;
-  font-family: arial, helvetica, sans-serif;
   font-weight: bold; }
 
 /* line 46, /Users/benn.pearson/Dropbox/Precedent/architype/assets/sass/base/_headings.scss */
 h6 {
   font-size: 1em;
   line-height: 20px;
-  padding-bottom: 0px;
-  font-family: arial, helvetica, sans-serif;
   font-weight: bold; }
 
-/* line 54, /Users/benn.pearson/Dropbox/Precedent/architype/assets/sass/base/_headings.scss */
+/* line 52, /Users/benn.pearson/Dropbox/Precedent/architype/assets/sass/base/_headings.scss */
 p {
-  font-family: "blokk--reg", Myriad, arial, helvetica, sans-serif;
-  margin: 0;
-  padding: 10px 0;
   font-size: 1em;
   line-height: 20px;
+  overflow: hidden; }
+
+/* line 58, /Users/benn.pearson/Dropbox/Precedent/architype/assets/sass/base/_headings.scss */
+.article {
+  font-family: "blokk--reg", Myriad, arial, helvetica, sans-serif;
+  color: #1daafc; }
+
+/* line 66, /Users/benn.pearson/Dropbox/Precedent/architype/assets/sass/base/_headings.scss */
+.aside {
   color: #282828; }
+  /* line 68, /Users/benn.pearson/Dropbox/Precedent/architype/assets/sass/base/_headings.scss */
+  .aside p {
+    font-size: 1.375em;
+    line-height: 30px; }
+
+/* line 1, /Users/benn.pearson/Dropbox/Precedent/architype/assets/sass/base/_page.scss */
+img {
+  width: 100%;
+  display: block; }
+
+/* line 6, /Users/benn.pearson/Dropbox/Precedent/architype/assets/sass/base/_page.scss */
+article {
+  float: left;
+  width: 65.625%;
+  margin-right: 3.125%; }
+
+/* line 11, /Users/benn.pearson/Dropbox/Precedent/architype/assets/sass/base/_page.scss */
+aside {
+  float: left;
+  width: 31.25%; }
 
 /* line 1, /Users/benn.pearson/Dropbox/Precedent/architype/assets/sass/objects/_box.scss */
-.carousel, .promo, .wysiwyg {
+.carousel--hero, .carousel--inner-page, .promo--text-with-image, .promo--video-with-text, .wysiwyg, .news--latest {
   background-color: #d4efff;
-  padding: 10px;
+  padding: 40px;
   border-bottom: 5px dashed white;
   display: block; }
   /* line 6, /Users/benn.pearson/Dropbox/Precedent/architype/assets/sass/tools/helpers/_clearfix.scss */
-  .carousel::after, .promo::after, .wysiwyg::after {
+  .carousel--hero::after, .carousel--inner-page::after, .promo--text-with-image::after, .promo--video-with-text::after, .wysiwyg::after, .news--latest::after {
     content: '';
     display: table;
     clear: both; }
+
+/* line 9, /Users/benn.pearson/Dropbox/Precedent/architype/assets/sass/objects/_box.scss */
+.article h2 {
+  position: absolute;
+  left: 69%;
+  font-family: arial, helvetica, sans-serif;
+  color: #bbbbbb;
+  margin-top: 10px;
+  font-weight: normal; }
+
+/* line 1, /Users/benn.pearson/Dropbox/Precedent/architype/assets/sass/components/_header.scss */
+.header {
+  padding: 40px; }
+
+@media all and (min-width: 48em) {
+  /* line 5, /Users/benn.pearson/Dropbox/Precedent/architype/assets/sass/components/_promo.scss */
+  .promo--text-with-image .promo__image {
+    margin-left: 3.125%; } }
+/* line 29, /Users/benn.pearson/Dropbox/Precedent/architype/assets/sass/tools/css3/_media-query.scss */
+.no-csstransforms .promo--text-with-image .promo__image {
+  margin-left: 3.125%; }
+
+@media all and (min-width: 48em) {
+  /* line 13, /Users/benn.pearson/Dropbox/Precedent/architype/assets/sass/components/_promo.scss */
+  .promo--video-with-text .promo__info {
+    margin-left: 3.125%; } }
+/* line 29, /Users/benn.pearson/Dropbox/Precedent/architype/assets/sass/tools/css3/_media-query.scss */
+.no-csstransforms .promo--video-with-text .promo__info {
+  margin-left: 3.125%; }
+
+@media all and (min-width: 48em) {
+  /* line 22, /Users/benn.pearson/Dropbox/Precedent/architype/assets/sass/components/_promo.scss */
+  .promo__info {
+    float: left;
+    width: 48.4375%; } }
+/* line 29, /Users/benn.pearson/Dropbox/Precedent/architype/assets/sass/tools/css3/_media-query.scss */
+.no-csstransforms .promo__info {
+  float: left;
+  width: 48.4375%; }
+
+/* line 29, /Users/benn.pearson/Dropbox/Precedent/architype/assets/sass/components/_promo.scss */
+.promo__video {
+  background-color: #1daafc;
+  margin-bottom: 20px; }
+  @media all and (min-width: 48em) {
+    /* line 29, /Users/benn.pearson/Dropbox/Precedent/architype/assets/sass/components/_promo.scss */
+    .promo__video {
+      float: left;
+      width: 48.4375%; } }
+  /* line 29, /Users/benn.pearson/Dropbox/Precedent/architype/assets/sass/tools/css3/_media-query.scss */
+  .no-csstransforms .promo__video {
+    float: left;
+    width: 48.4375%; }
+
+/* line 38, /Users/benn.pearson/Dropbox/Precedent/architype/assets/sass/components/_promo.scss */
+.promo__image {
+  background-color: #1daafc;
+  margin-bottom: 20px; }
+  @media all and (min-width: 48em) {
+    /* line 38, /Users/benn.pearson/Dropbox/Precedent/architype/assets/sass/components/_promo.scss */
+    .promo__image {
+      float: left;
+      width: 48.4375%; } }
+  /* line 29, /Users/benn.pearson/Dropbox/Precedent/architype/assets/sass/tools/css3/_media-query.scss */
+  .no-csstransforms .promo__image {
+    float: left;
+    width: 48.4375%; }
+
+@media all and (min-width: 48em) {
+  /* line 5, /Users/benn.pearson/Dropbox/Precedent/architype/assets/sass/components/_news.scss */
+  .news__intro {
+    float: left;
+    width: 48.4375%;
+    margin-right: 3.125%; } }
+/* line 29, /Users/benn.pearson/Dropbox/Precedent/architype/assets/sass/tools/css3/_media-query.scss */
+.no-csstransforms .news__intro {
+  float: left;
+  width: 48.4375%;
+  margin-right: 3.125%; }
+
+@media all and (min-width: 48em) {
+  /* line 13, /Users/benn.pearson/Dropbox/Precedent/architype/assets/sass/components/_news.scss */
+  .news__description {
+    float: left;
+    width: 48.4375%; } }
+/* line 29, /Users/benn.pearson/Dropbox/Precedent/architype/assets/sass/tools/css3/_media-query.scss */
+.no-csstransforms .news__description {
+  float: left;
+  width: 48.4375%; }
+
+/* line 1, /Users/benn.pearson/Dropbox/Precedent/architype/assets/sass/components/_footer.scss */
+.footer {
+  padding: 40px; }
