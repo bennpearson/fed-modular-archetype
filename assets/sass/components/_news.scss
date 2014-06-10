@@ -1,19 +1,19 @@
 .news--latest{
-	@extend %box;
+  @extend %box;
 }
 
 .news__intro{
-    @include media-query-ie(tablet-and-desktop) {
-    	float: left;
-		width: grid--column(6);
-		margin-right: grid--gutter();
-    }
+  @include media-query-ie(tablet-and-desktop) {
+    float: left;
+    width: grid--column(6);
+    margin-right: grid--gutter();
+  }
 }
 
 .news__description{
-    @include media-query-ie(tablet-and-desktop) {
-    	float: left;
-		width: grid--column(6);
-    }
+  @include media-query-ie(tablet-and-desktop) {
+    float: left;
+    width: grid--column(6);
+  }
 }
 

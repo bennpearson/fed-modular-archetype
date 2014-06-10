@@ -82,14 +82,25 @@ img {
   width: 100%;
   display: block; }
 
-/* line 6, /Users/benn.pearson/Dropbox/Precedent/architype/assets/sass/base/_page.scss */
-article {
+@media all and (min-width: 48em) {
+  /* line 6, /Users/benn.pearson/Dropbox/Precedent/architype/assets/sass/base/_page.scss */
+  article {
+    float: left;
+    width: 65.625%;
+    margin-right: 3.125%; } }
+/* line 29, /Users/benn.pearson/Dropbox/Precedent/architype/assets/sass/tools/css3/_media-query.scss */
+.no-csstransforms article {
   float: left;
   width: 65.625%;
   margin-right: 3.125%; }
 
-/* line 11, /Users/benn.pearson/Dropbox/Precedent/architype/assets/sass/base/_page.scss */
-aside {
+@media all and (min-width: 48em) {
+  /* line 13, /Users/benn.pearson/Dropbox/Precedent/architype/assets/sass/base/_page.scss */
+  aside {
+    float: left;
+    width: 31.25%; } }
+/* line 29, /Users/benn.pearson/Dropbox/Precedent/architype/assets/sass/tools/css3/_media-query.scss */
+.no-csstransforms aside {
   float: left;
   width: 31.25%; }
 
@@ -121,7 +132,15 @@ aside {
   font-family: arial, helvetica, sans-serif;
   color: #bbbbbb;
   margin-top: 10px;
-  font-weight: normal; }
+  font-weight: normal;
+  display: none; }
+  @media all and (min-width: 48em) {
+    /* line 12, /Users/benn.pearson/Dropbox/Precedent/architype/assets/sass/objects/_box.scss */
+    .article h2 {
+      display: block; } }
+  /* line 29, /Users/benn.pearson/Dropbox/Precedent/architype/assets/sass/tools/css3/_media-query.scss */
+  .no-csstransforms .article h2, .article .no-csstransforms h2 {
+    display: block; }
 
 /* line 1, /Users/benn.pearson/Dropbox/Precedent/architype/assets/sass/components/_header.scss */
 .header {
