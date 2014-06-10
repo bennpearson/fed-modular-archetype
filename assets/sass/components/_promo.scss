@@ -16,6 +16,7 @@
 		}
 	}
 	.promo__video{
+		overflow: hidden;
 	}
 }
 
@@ -32,6 +33,9 @@
 	@include media-query-ie(tablet-and-desktop) {
 		float: left;
 		width: grid--column(6);
+	}
+	video{
+		opacity: 0;
 	}
 }
 
