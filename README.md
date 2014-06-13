@@ -23,6 +23,3 @@
 # Readme
 
 ## FED Archetype
-* Demo: http://ixd.precedent.com/bennpearson/archetype/
-* FED Guidlines: http://stash.precedent.com/projects/PREC/repos/front-end-guidelines/browse
-* FED Mixin library: http://stash.precedent.com/projects/PREC/repos/fed-mixin-library/browse
