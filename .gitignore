@@ -26,9 +26,7 @@ assets/css/*.css
 assets/js/*.min.js
 converted-html
 .jshintrc
-<<<<<<< HEAD
 .scss-lint.yml
 bfg.jar
-=======
 .scss-lint.yml
->>>>>>> 24bdff3e770184f3560479ee78aefa7ece33a7eb
+.ftpsettings
