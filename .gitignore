@@ -27,3 +27,4 @@ assets/js/*.min.js
 converted-html
 .jshintrc
 .scss-lint.yml
+bfg.jar
