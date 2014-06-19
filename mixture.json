@@ -1,9 +1,18 @@
 {
+  "convertHtml": {
+    "default": null,
+    "extension": ".html",
+    "ignoreUrls": null,
+    "path": null,
+    "relativePaths": true
+  },
   "debug": true,
   "domain": null,
   "lintScripts": false,
   "modelSource": null,
-  "preprocessorLocations": "assets",
+  "preprocessorLocations": [
+    "assets"
+  ],
   "preprocessorScriptOutput": "assets/scripts",
   "preprocessorStyleOutput": "assets/css",
   "projectDescription": "A simple empty boilerplate for a fresh start",
@@ -16,12 +25,5 @@
   "templateDefaultPage": "index",
   "templateDirectory": "templates",
   "type": "mixture",
-  "useCompass": false,
-  "convertHtml": {
-    "extension": ".html",
-    "path": null,
-    "ignoreUrls": null,
-    "relativePaths": true,
-    "default": null
-  }
+  "useCompass": false
 }
