@@ -17,10 +17,8 @@
 
 
     
-# Readme
-
-## FED Archetype
-### An example of a modular based layout
+# FED Archetype
+## An example of a modular based layout
 
 This is a FED Archetype based on Christopher Butler's article on [modular content](http://www.newfangled.com/the_way_you_design_web_content_is_about_to_change)</a> to demonstrate BEM methodologies, folder structure and mixins.  
 
