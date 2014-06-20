@@ -1,0 +1,17 @@
+// Feature detection
+// Needs Modernizor to work with classes 
+
+@mixin feature-detection($feature) {
+  @at-root #{$feature} & {
+    @content;
+  }
+}
+
+// Example
+// .news--item{
+//   column-count:2;
+//   @include feature-detection(".no-csscolumns") {
+//     width: 50%;
+//     float: left;
+//   }
+// }

@@ -1,4 +1,6 @@
 // Inline media queries
+
+// Example
 // @include breakpoint(tablet-and-desktop){}
 
 @mixin media-query($breakpoint) {
@@ -19,13 +21,4 @@
    @media all and (min-width: em(1525px)) { @content; }    
   }
 
-}
-
-// Inline media queries with support for ie 9 and older
-// @include breakpoint-ie(tablet-and-desktop){}
-@mixin media-query-ie($breakpoint) {
- 
-  @include media-query($breakpoint) { @content; }
-  .no-csstransforms & { @content; }
- 
 }

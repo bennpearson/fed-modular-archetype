@@ -57,23 +57,22 @@ h6 {
 /* line 52, /Users/benn.pearson/Dropbox/Precedent/architype/assets/sass/base/_headings.scss */
 p {
   font-size: 1em;
-  line-height: 20px;
-  overflow: hidden; }
+  line-height: 20px; }
 
-/* line 58, /Users/benn.pearson/Dropbox/Precedent/architype/assets/sass/base/_headings.scss */
+/* line 57, /Users/benn.pearson/Dropbox/Precedent/architype/assets/sass/base/_headings.scss */
 .article {
   font-family: "blokk--reg", Myriad, arial, helvetica, sans-serif;
   color: #1daafc; }
 
-/* line 66, /Users/benn.pearson/Dropbox/Precedent/architype/assets/sass/base/_headings.scss */
+/* line 65, /Users/benn.pearson/Dropbox/Precedent/architype/assets/sass/base/_headings.scss */
 .aside {
   color: #282828; }
-  /* line 68, /Users/benn.pearson/Dropbox/Precedent/architype/assets/sass/base/_headings.scss */
+  /* line 67, /Users/benn.pearson/Dropbox/Precedent/architype/assets/sass/base/_headings.scss */
   .aside p {
     font-size: 1.375em;
     line-height: 30px; }
 
-/* line 74, /Users/benn.pearson/Dropbox/Precedent/architype/assets/sass/base/_headings.scss */
+/* line 73, /Users/benn.pearson/Dropbox/Precedent/architype/assets/sass/base/_headings.scss */
 a {
   color: #1daafc; }
 
@@ -88,21 +87,12 @@ img {
     float: left;
     width: 65.625%;
     margin-right: 3.125%; } }
-/* line 29, /Users/benn.pearson/Dropbox/Precedent/architype/assets/sass/tools/css3/_media-query.scss */
-.no-csstransforms article {
-  float: left;
-  width: 65.625%;
-  margin-right: 3.125%; }
 
 @media all and (min-width: 48em) {
   /* line 13, /Users/benn.pearson/Dropbox/Precedent/architype/assets/sass/base/_page.scss */
   aside {
     float: left;
     width: 31.25%; } }
-/* line 29, /Users/benn.pearson/Dropbox/Precedent/architype/assets/sass/tools/css3/_media-query.scss */
-.no-csstransforms aside {
-  float: left;
-  width: 31.25%; }
 
 /* line 6, /Users/benn.pearson/Dropbox/Precedent/architype/assets/sass/tools/helpers/_clearfix.scss */
 .main-content::after {
@@ -115,17 +105,31 @@ img {
   background-color: #d4efff;
   padding: 40px;
   border-bottom: 5px dashed white;
-  display: block; }
+  display: block;
+  overflow: hidden; }
   /* line 6, /Users/benn.pearson/Dropbox/Precedent/architype/assets/sass/tools/helpers/_clearfix.scss */
   .carousel--hero::after, .carousel--inner-page::after, .promo--text-with-image::after, .promo--video-with-text::after, .rte::after, .news--latest::after {
     content: '';
     display: table;
     clear: both; }
-  /* line 7, /Users/benn.pearson/Dropbox/Precedent/architype/assets/sass/objects/_box.scss */
+  /* line 8, /Users/benn.pearson/Dropbox/Precedent/architype/assets/sass/objects/_box.scss */
   .carousel--hero:last-of-type, .carousel--inner-page:last-of-type, .promo--text-with-image:last-of-type, .promo--video-with-text:last-of-type, .rte:last-of-type, .news--latest:last-of-type {
     border-bottom: 0px; }
+  /* line 11, /Users/benn.pearson/Dropbox/Precedent/architype/assets/sass/objects/_box.scss */
+  .article h2 {
+    position: absolute;
+    left: 69%;
+    font-family: arial, helvetica, sans-serif;
+    color: #bbbbbb;
+    margin-top: 10px;
+    font-weight: normal;
+    display: none; }
+    @media all and (min-width: 48em) {
+      /* line 11, /Users/benn.pearson/Dropbox/Precedent/architype/assets/sass/objects/_box.scss */
+      .article h2 {
+        display: block; } }
 
-/* line 12, /Users/benn.pearson/Dropbox/Precedent/architype/assets/sass/objects/_box.scss */
+/* line 25, /Users/benn.pearson/Dropbox/Precedent/architype/assets/sass/objects/_box.scss */
 .article h2 {
   position: absolute;
   left: 69%;
@@ -135,12 +139,9 @@ img {
   font-weight: normal;
   display: none; }
   @media all and (min-width: 48em) {
-    /* line 12, /Users/benn.pearson/Dropbox/Precedent/architype/assets/sass/objects/_box.scss */
+    /* line 25, /Users/benn.pearson/Dropbox/Precedent/architype/assets/sass/objects/_box.scss */
     .article h2 {
       display: block; } }
-  /* line 29, /Users/benn.pearson/Dropbox/Precedent/architype/assets/sass/tools/css3/_media-query.scss */
-  .no-csstransforms .article h2, .article .no-csstransforms h2 {
-    display: block; }
 
 /* line 1, /Users/benn.pearson/Dropbox/Precedent/architype/assets/sass/components/_header.scss */
 .header {
@@ -150,17 +151,11 @@ img {
   /* line 5, /Users/benn.pearson/Dropbox/Precedent/architype/assets/sass/components/_promo.scss */
   .promo--text-with-image .promo__image {
     margin-left: 3.125%; } }
-/* line 29, /Users/benn.pearson/Dropbox/Precedent/architype/assets/sass/tools/css3/_media-query.scss */
-.no-csstransforms .promo--text-with-image .promo__image {
-  margin-left: 3.125%; }
 
 @media all and (min-width: 48em) {
   /* line 13, /Users/benn.pearson/Dropbox/Precedent/architype/assets/sass/components/_promo.scss */
   .promo--video-with-text .promo__info {
     margin-left: 3.125%; } }
-/* line 29, /Users/benn.pearson/Dropbox/Precedent/architype/assets/sass/tools/css3/_media-query.scss */
-.no-csstransforms .promo--video-with-text .promo__info {
-  margin-left: 3.125%; }
 /* line 18, /Users/benn.pearson/Dropbox/Precedent/architype/assets/sass/components/_promo.scss */
 .promo--video-with-text .promo__video {
   overflow: hidden; }
@@ -170,10 +165,6 @@ img {
   .promo__info {
     float: left;
     width: 48.4375%; } }
-/* line 29, /Users/benn.pearson/Dropbox/Precedent/architype/assets/sass/tools/css3/_media-query.scss */
-.no-csstransforms .promo__info {
-  float: left;
-  width: 48.4375%; }
 
 /* line 30, /Users/benn.pearson/Dropbox/Precedent/architype/assets/sass/components/_promo.scss */
 .promo__video {
@@ -184,10 +175,6 @@ img {
     .promo__video {
       float: left;
       width: 48.4375%; } }
-  /* line 29, /Users/benn.pearson/Dropbox/Precedent/architype/assets/sass/tools/css3/_media-query.scss */
-  .no-csstransforms .promo__video {
-    float: left;
-    width: 48.4375%; }
   /* line 37, /Users/benn.pearson/Dropbox/Precedent/architype/assets/sass/components/_promo.scss */
   .promo__video video {
     opacity: 0; }
@@ -201,10 +188,6 @@ img {
     .promo__image {
       float: left;
       width: 48.4375%; } }
-  /* line 29, /Users/benn.pearson/Dropbox/Precedent/architype/assets/sass/tools/css3/_media-query.scss */
-  .no-csstransforms .promo__image {
-    float: left;
-    width: 48.4375%; }
 
 @media all and (min-width: 48em) {
   /* line 5, /Users/benn.pearson/Dropbox/Precedent/architype/assets/sass/components/_news.scss */
@@ -212,21 +195,12 @@ img {
     float: left;
     width: 48.4375%;
     margin-right: 3.125%; } }
-/* line 29, /Users/benn.pearson/Dropbox/Precedent/architype/assets/sass/tools/css3/_media-query.scss */
-.no-csstransforms .news__intro {
-  float: left;
-  width: 48.4375%;
-  margin-right: 3.125%; }
 
 @media all and (min-width: 48em) {
   /* line 13, /Users/benn.pearson/Dropbox/Precedent/architype/assets/sass/components/_news.scss */
   .news__description {
     float: left;
     width: 48.4375%; } }
-/* line 29, /Users/benn.pearson/Dropbox/Precedent/architype/assets/sass/tools/css3/_media-query.scss */
-.no-csstransforms .news__description {
-  float: left;
-  width: 48.4375%; }
 
 /* line 1, /Users/benn.pearson/Dropbox/Precedent/architype/assets/sass/components/_footer.scss */
 .footer {

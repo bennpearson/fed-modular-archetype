@@ -4,14 +4,14 @@ img{
 }
 
 article{
-  @include media-query-ie(tablet-and-desktop) {
+  @include media-query(tablet-and-desktop) {
     float: left;
     width: grid--column(8);
     margin-right: grid--gutter();
   }
 }
 aside{  
-  @include media-query-ie(tablet-and-desktop) {
+  @include media-query(tablet-and-desktop) {
     float: left;
     width: grid--column(4);
   }

@@ -1,3 +1,9 @@
+// @ font-face
+
+// Example
+// @include font-face(blokk--reg, '../type/BLOKKRegular');
+// @include font-face(blokk--reg, '../type/BLOKKRegular', normal, italic);
+
 @mixin font-face($font-family, $file-path, $weight: normal, $style: normal, $asset-pipeline: false) {
   @font-face {
     font-family: $font-family;

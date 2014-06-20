@@ -3,7 +3,7 @@
   .promo__info{
   }
   .promo__image{
-    @include media-query-ie(tablet-and-desktop) {
+    @include media-query(tablet-and-desktop) {
       margin-left: grid--gutter();
     }
   }
@@ -11,7 +11,7 @@
 .promo--video-with-text {
   @extend %box;
   .promo__info{
-    @include media-query-ie(tablet-and-desktop) {
+    @include media-query(tablet-and-desktop) {
       margin-left: grid--gutter();
     }
   }
@@ -21,7 +21,7 @@
 }
 
 .promo__info{
-  @include media-query-ie(tablet-and-desktop) {
+  @include media-query(tablet-and-desktop) {
     float: left;
     width: grid--column(6);
   }
@@ -30,7 +30,7 @@
 .promo__video{
   background-color: $blue;
   margin-bottom: $baseline*2;
-  @include media-query-ie(tablet-and-desktop) {
+  @include media-query(tablet-and-desktop) {
     float: left;
     width: grid--column(6);
   }
@@ -42,7 +42,7 @@
 .promo__image{
   background-color: $blue;
   margin-bottom: $baseline*2;
-  @include media-query-ie(tablet-and-desktop) {
+  @include media-query(tablet-and-desktop) {
     float: left;
     width: grid--column(6);
   }

@@ -3,7 +3,7 @@
 }
 
 .news__intro{
-  @include media-query-ie(tablet-and-desktop) {
+  @include media-query(tablet-and-desktop) {
     float: left;
     width: grid--column(6);
     margin-right: grid--gutter();
@@ -11,7 +11,7 @@
 }
 
 .news__description{
-  @include media-query-ie(tablet-and-desktop) {
+  @include media-query(tablet-and-desktop) {
     float: left;
     width: grid--column(6);
   }

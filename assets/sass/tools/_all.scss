@@ -1,18 +1,12 @@
 // Custom Functions
 @import 'functions/em-calc';
-@import 'functions/percentage';
 @import 'functions/grid--flex';
 @import 'functions/strip-units';
 
 // CSS3
 @import 'css3/font-face';
 @import 'css3/media-query'; 
-@import 'css3/transform';
-@import 'css3/transition';
+@import 'css3/feature-detection'; 
 
 //Addons
 @import 'helpers/clearfix';
-@import 'helpers/hide-text';
-@import 'helpers/image-replacement';
-@import 'helpers/image--retina'; 
-@import 'helpers/prefixer';
