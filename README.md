@@ -24,6 +24,9 @@
 * FED Mixin library: https://github.com/bennpearson/fed-mixin-library
 
 ## Made by
+
 [Benn Pearson](http://twitter.com/bennpearson)
+
 [Pete Naish](http://twitter.com/tweet_naish)
+
 [Andy Williams](https://twitter.com/framerateuk)
