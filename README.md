@@ -28,10 +28,6 @@ To see BEM methodology guidelines and folder structure go [here](https://github.
 
 Get the FED mixin library [here](https://github.com/bennpearson/fed-mixin-library)
 
-* Demo: http://ixd.precedent.com/bennpearson/archetype/
-* FED Guidlines: https://github.com/pete-naish/front-end-guidelines
-* FED Mixin library: https://github.com/bennpearson/fed-mixin-library
-
 ## Made by
 
 [Benn Pearson](http://twitter.com/bennpearson)
@@ -39,3 +35,9 @@ Get the FED mixin library [here](https://github.com/bennpearson/fed-mixin-librar
 [Pete Naish](http://twitter.com/tweet_naish)
 
 [Andy Williams](https://twitter.com/framerateuk)
+
+## Links
+
+* Demo: http://ixd.precedent.com/bennpearson/archetype/
+* FED Guidlines: https://github.com/pete-naish/front-end-guidelines
+* FED Mixin library: https://github.com/bennpearson/fed-mixin-library
