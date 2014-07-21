@@ -1,10 +1,11 @@
 // #SETUP
 // Settings, variables and tools.
 
+
+@import 'tools/all';
 @import 'settings/colour';
 @import 'settings/type';
 @import 'settings/grid';
-@import 'tools/all';
 
 // #GENERIC
 // These are far reaching styles that affect and underpin every element on the page, e.g. `* {}`.

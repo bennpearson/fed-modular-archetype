@@ -1,5 +1,8 @@
+@include font-face(blokk--reg, '../type/BLOKKRegular');
+
 $sans-serif: arial, helvetica, sans-serif;
-$heading-font: "blokk--reg", Myriad, arial, helvetica, sans-serif;
+$blokk-font: "blokk--reg", Myriad, arial, helvetica, sans-serif;
+$heading-font: helvetica, arial, sans-serif;
 $base--em: 16;
 $baseline: 10px;
 

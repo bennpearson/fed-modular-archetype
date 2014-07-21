@@ -5,11 +5,11 @@
   font-style: normal;
   src: url("../type/BLOKKRegular.eot");
   src: url("../type/BLOKKRegular.eot?#iefix") format("embedded-opentype"), url("../type/BLOKKRegular.woff") format("woff"), url("../type/BLOKKRegular.ttf") format("truetype"), url("../type/BLOKKRegular.svg#blokk--reg") format("svg"); }
-/* line 3, /Users/benn.pearson/Dropbox/Precedent/architype/assets/sass/base/_headings.scss */
+/* line 1, /Users/benn.pearson/Dropbox/Precedent/architype/assets/sass/base/_headings.scss */
 html {
   font-family: arial, helvetica, sans-serif; }
 
-/* line 7, /Users/benn.pearson/Dropbox/Precedent/architype/assets/sass/base/_headings.scss */
+/* line 5, /Users/benn.pearson/Dropbox/Precedent/architype/assets/sass/base/_headings.scss */
 h1,
 h2,
 h3,
@@ -21,58 +21,58 @@ h6 {
   font-weight: normal;
   overflow: hidden; }
 
-/* line 19, /Users/benn.pearson/Dropbox/Precedent/architype/assets/sass/base/_headings.scss */
+/* line 17, /Users/benn.pearson/Dropbox/Precedent/architype/assets/sass/base/_headings.scss */
 h1 {
   font-size: 2.25em;
   line-height: 40px; }
 
-/* line 24, /Users/benn.pearson/Dropbox/Precedent/architype/assets/sass/base/_headings.scss */
+/* line 22, /Users/benn.pearson/Dropbox/Precedent/architype/assets/sass/base/_headings.scss */
 h2 {
   font-size: 1.625em;
   line-height: 30px; }
 
-/* line 29, /Users/benn.pearson/Dropbox/Precedent/architype/assets/sass/base/_headings.scss */
+/* line 27, /Users/benn.pearson/Dropbox/Precedent/architype/assets/sass/base/_headings.scss */
 h3 {
   font-size: 1.375em;
   line-height: 20px; }
 
-/* line 34, /Users/benn.pearson/Dropbox/Precedent/architype/assets/sass/base/_headings.scss */
+/* line 32, /Users/benn.pearson/Dropbox/Precedent/architype/assets/sass/base/_headings.scss */
 h4 {
   font-size: 1.125em;
   line-height: 20px;
   padding-bottom: 0px; }
 
-/* line 40, /Users/benn.pearson/Dropbox/Precedent/architype/assets/sass/base/_headings.scss */
+/* line 38, /Users/benn.pearson/Dropbox/Precedent/architype/assets/sass/base/_headings.scss */
 h5 {
   font-size: 1em;
   line-height: 20px;
   font-weight: bold; }
 
-/* line 46, /Users/benn.pearson/Dropbox/Precedent/architype/assets/sass/base/_headings.scss */
+/* line 44, /Users/benn.pearson/Dropbox/Precedent/architype/assets/sass/base/_headings.scss */
 h6 {
   font-size: 1em;
   line-height: 20px;
   font-weight: bold; }
 
-/* line 52, /Users/benn.pearson/Dropbox/Precedent/architype/assets/sass/base/_headings.scss */
+/* line 50, /Users/benn.pearson/Dropbox/Precedent/architype/assets/sass/base/_headings.scss */
 p {
   font-size: 1em;
   line-height: 20px; }
 
-/* line 57, /Users/benn.pearson/Dropbox/Precedent/architype/assets/sass/base/_headings.scss */
+/* line 55, /Users/benn.pearson/Dropbox/Precedent/architype/assets/sass/base/_headings.scss */
 .article {
   font-family: "blokk--reg", Myriad, arial, helvetica, sans-serif;
   color: #1daafc; }
 
-/* line 65, /Users/benn.pearson/Dropbox/Precedent/architype/assets/sass/base/_headings.scss */
+/* line 63, /Users/benn.pearson/Dropbox/Precedent/architype/assets/sass/base/_headings.scss */
 .aside {
   color: #282828; }
-  /* line 67, /Users/benn.pearson/Dropbox/Precedent/architype/assets/sass/base/_headings.scss */
+  /* line 65, /Users/benn.pearson/Dropbox/Precedent/architype/assets/sass/base/_headings.scss */
   .aside p {
     font-size: 1.375em;
     line-height: 30px; }
 
-/* line 73, /Users/benn.pearson/Dropbox/Precedent/architype/assets/sass/base/_headings.scss */
+/* line 71, /Users/benn.pearson/Dropbox/Precedent/architype/assets/sass/base/_headings.scss */
 a {
   color: #1daafc; }
 
@@ -95,7 +95,7 @@ img {
     width: 31.25%; } }
 
 /* line 6, /Users/benn.pearson/Dropbox/Precedent/architype/assets/sass/tools/helpers/_clearfix.scss */
-.main-content::after {
+.main-content:after {
   content: '';
   display: table;
   clear: both; }
@@ -108,7 +108,7 @@ img {
   display: block;
   overflow: hidden; }
   /* line 6, /Users/benn.pearson/Dropbox/Precedent/architype/assets/sass/tools/helpers/_clearfix.scss */
-  .carousel--hero::after, .carousel--inner-page::after, .promo--text-with-image::after, .promo--video-with-text::after, .rte::after, .news--latest::after {
+  .carousel--hero:after, .carousel--inner-page:after, .promo--text-with-image:after, .promo--video-with-text:after, .rte:after, .news--latest:after {
     content: '';
     display: table;
     clear: both; }
