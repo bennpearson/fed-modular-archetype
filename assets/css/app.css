@@ -3,8 +3,8 @@
   font-family: blokk--reg;
   font-weight: normal;
   font-style: normal;
-  src: url("../type/BLOKKRegular.eot");
-  src: url("../type/BLOKKRegular.eot?#iefix") format("embedded-opentype"), url("../type/BLOKKRegular.woff") format("woff"), url("../type/BLOKKRegular.ttf") format("truetype"), url("../type/BLOKKRegular.svg#blokk--reg") format("svg"); }
+  src: url("../type/blokk/BLOKKRegular.eot");
+  src: url("../type/blokk/BLOKKRegular.eot?#iefix") format("embedded-opentype"), url("../type/blokk/BLOKKRegular.woff") format("woff"), url("../type/blokk/BLOKKRegular.ttf") format("truetype"), url("../type/blokk/BLOKKRegular.svg#blokk--reg") format("svg"); }
 /* line 1, /Users/benn.pearson/Dropbox/Precedent/architype/assets/sass/base/_headings.scss */
 html {
   font-family: arial, helvetica, sans-serif; }

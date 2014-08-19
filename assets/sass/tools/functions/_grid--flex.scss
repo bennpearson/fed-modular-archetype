@@ -16,3 +16,13 @@
   $container-width: $container-columns * $grid--column + ($container-columns - 1) * $grid--gutter;
   @return percentage($gutter / $container-width);
 }
+
+// Example 
+// .cta {
+//   width: grid--column(8);
+//   margin-right: grid--gutter();
+// }
+// .promo {
+//   float: left;
+//   width: grid--column(4);
+// }
